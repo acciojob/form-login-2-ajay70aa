@@ -10,6 +10,5 @@ function handleClick(){
 	alert(`${lastName.name} ${lastName.value}`)
 	alert(`${phoneNum.name} ${phoneNum.value}`)
 	alert(`${email.name} ${email.value}`)
-	
 }
 submitBtn.addEventListener('click', handleClick)
