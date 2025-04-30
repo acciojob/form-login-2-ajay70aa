@@ -6,10 +6,11 @@ const email = document.getElementById('email')
 const submitBtn = document.getElementById('submit')
 
 function handleClick(){
-	alert(`${firstName.name} ${firstName.value} 
-		${lastName.name} ${lastName.value}
-		${phoneNum.name} ${phoneNum.value}
-		${email.name} ${email.value}
-		`)
+	alert(
+    `${firstName.name}: ${firstName.value}\n` +
+    `${lastName.name}: ${lastName.value}\n` +
+    `${phoneNum.name}: ${phoneNum.value}\n` +
+    `${email.name}: ${email.value}`
+  );
 }
 submitBtn.addEventListener('click', handleClick)
